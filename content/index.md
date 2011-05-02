@@ -1,9 +1,10 @@
 --- 
 title: Home
+is_hidden: true
 ---
 
-# Lista de posts
+# Posts
 
-* bla
-* ble
-* bli
+<% articles.each do |article| %>
+  <%= link_to(article[:title], article) %> - <%= article[:created_at] %>
+<% end %>

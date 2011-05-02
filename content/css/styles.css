@@ -72,6 +72,10 @@ pre code { border-width: 0px; }
   color: #eee;
 }
 
+.terminal code {
+  background-color: #000;
+}
+
 ul {
   list-style-type: none;
   margin-bottom: 1em;
