@@ -11,3 +11,9 @@ include Nanoc3::Helpers::Rendering
 include Nanoc3::Helpers::Tagging
 include Nanoc3::Helpers::Text
 include Nanoc3::Helpers::XMLSitemap
+
+require "time"
+
+def pretty_time(time)
+  Time.parse(time).strftime("%b %d, %Y") if !time.nil?
+end

@@ -31,6 +31,17 @@
 
     <div class="container_12" id="wrapper">
       <div class="grid_9 suffix_1" id="content">
+
+        <% if @item[:kind] == "article" %>
+          <h1 class="title"><%= @item[:title] %></h1>
+          <div class="meta">
+            <ul>
+              <li><%= pretty_time(@item[:created_at]) %> | </li>
+              <li><%= tags_for(@item) %></li>
+            </ul>
+          </div>
+        <% end %>
+
         <%= yield %>
       </div>
 
@@ -52,12 +63,12 @@
             <li><a href="/">Home</a></li>
             <li><a href="http://www.zigotto.com.br">Zigotto</a></li>
             <li><a href="http://github.com/jtadeulopes">Github</a></li>
-            <li><a href="http://twitter.com/jtadeulopes">Twitter</a></li>
-            <li><a href="#">Source</a></li>
+            <li><a href="https://github.com/jtadeulopes/jlopes.me">Source</a></li>
           </ul>
           <ul class="nav">
             <li>2011 Jésus Lopes.</li>
             <li><a href="http://developer.github.com/">Layout by github:developer</a></li>
+            <li><a href="https://github.com/intridea/authbuttons">AuthButtons</a></li>
           </ul>
         </div>
       </div><!-- #footer -->

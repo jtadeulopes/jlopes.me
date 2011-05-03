@@ -25,6 +25,11 @@ h1 {
   margin-bottom: 1em;
 }
 
+h1.title {
+  font-size: 1.25em;
+  margin-bottom: 0px;
+}
+
 h2 {
   font-size: 1em;
   margin:1em 0;
@@ -148,6 +153,11 @@ dd + dd {
   padding-top: 1em;
 }
 
+#sidebar img {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
 #content {
   padding: 1em 0;
 }
@@ -159,6 +169,17 @@ dd + dd {
 
 #content ul {
   list-style-type: disc;
+}
+
+.meta {
+  font-size: 13px;
+}
+.meta ul {
+  padding-left: 0px;
+}
+.meta ul li {
+  color: #999;
+  display: inline;
 }
 
 #footer-wrapper {

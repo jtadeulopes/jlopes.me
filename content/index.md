@@ -6,5 +6,5 @@ is_hidden: true
 # Posts
 
 <% articles.each do |article| %>
-  <%= link_to(article[:title], article) %> - <%= article[:created_at] %>
+  <%= link_to(article[:title], article) %> - <%= pretty_time(article[:created_at]) %>
 <% end %>
