@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://jlopes.me/</id>
+  <title>jlopes.me</title>
+  <updated>2011-05-03T03:00:00Z</updated>
+  <link rel="alternate" href="http://jlopes.me/"/>
+  <link rel="self" href="http://jlopes.me/blog/feed.xml"/>
+  <author>
+    <name>Jésus Lopes</name>
+    <uri>http://jlopes.me</uri>
+  </author>
+  <entry>
+    <id>tag:jlopes.me,2011-05-03:/blog/hello/</id>
+    <title type="html">Hello</title>
+    <published>2011-05-03T03:00:00Z</published>
+    <updated>2011-05-03T03:00:00Z</updated>
+    <link rel="alternate" href="http://jlopes.me/blog/hello/"/>
+    <content type="html">&lt;p&gt;Terminal&lt;/p&gt;
+
+&lt;pre class="terminal"&gt;&lt;code&gt;$ gem install nanoc
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Code&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;--- 
+title: A New Item
+---
+
+Hi, I'm a new item!
+&lt;/code&gt;&lt;/pre&gt;</content>
+    <summary type="html">Simple hello</summary>
+  </entry>
+</feed>
