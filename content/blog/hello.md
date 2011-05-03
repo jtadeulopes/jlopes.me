@@ -4,6 +4,7 @@ kind: article
 author_name: Jésus Lopes
 author_uri: http://jlopes.me
 created_at: 2011/5/3
+excerpt: Simple hello
 tags:
 - nanoc
 - ruby
